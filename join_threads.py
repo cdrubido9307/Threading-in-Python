@@ -5,6 +5,7 @@ import math
 def circle_area(r):
     time.sleep(10)
     print(math.pi * r**2)
+    return math.pi * r**2
 
 if __name__ == '__main__':
     print('Main thread started')
